@@ -12,10 +12,13 @@ import static org.junit.Assert.assertTrue;
 
 public class UserAddress {
 
+    public static final String EMAIL = "adelajda@gmail.com";
+    public static final String PASSWORD = "Kotek";
+
     @And("^I log in$")
     public void iLogIn() {
-        getDriver().findElement(By.name("email")).sendKeys("adelajda@gmail.com");
-        getDriver().findElement(By.name("password")).sendKeys("Kotek");
+        getDriver().findElement(By.name("email")).sendKeys(EMAIL);
+        getDriver().findElement(By.name("password")).sendKeys(PASSWORD);
         getDriver().findElement(By.id("submit-login")).click();
     }
 

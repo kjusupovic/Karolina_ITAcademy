@@ -21,7 +21,7 @@ import static org.junit.Assert.assertTrue;
 public class MyStore {
 
     private static final By FIRST_NAME = By.name("firstname");
-    private String randomEmail = randomNumeric(6) + "_pietaszek@gmail.com"
+    private String randomEmail = randomNumeric(6) + "_pietaszek@gmail.com";
 
     @Before
     public void setUp() {
