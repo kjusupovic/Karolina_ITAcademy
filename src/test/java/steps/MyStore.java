@@ -70,11 +70,11 @@ public class MyStore {
     }
 
 
-//    @After
-//    public void tearDown() {
-//        getDriver().quit();
-//
-//    }
+    @After
+    public void tearDown() {
+        getDriver().quit();
+
+    }
 
 
 }
